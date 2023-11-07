@@ -11,8 +11,8 @@ export const BtnTheme = styled.button`
   font-weight: bold;
   border-radius: 12px;
   padding: 8px;
-  color: #eee;
-  background-color: #282a35;
+  color: ${(props) => props.theme.bgColor};
+  background-color: ${(props) => props.theme.mainColor};
   cursor: pointer;
 `
 
